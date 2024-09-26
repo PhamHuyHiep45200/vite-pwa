@@ -1,12 +1,10 @@
-[
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "app.vercel.vite_pwa.twa",
-      "sha256_cert_fingerprints": [
-        "C8:AE:E6:30:DA:32:0F:1B:90:04:0B:EF:E3:70:66:33:17:93:B5:E7:B8:FF:D1:C8:91:4F:28:44:5C:18:CE:0F"
-      ]
-    }
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "app.vercel.vite_pwa.twa",
+    "sha256_cert_fingerprints": [
+      "C8:AE:E6:30:DA:32:0F:1B:90:04:0B:EF:E3:70:66:33:17:93:B5:E7:B8:FF:D1:C8:91:4F:28:44:5C:18:CE:0F"
+    ]
   }
-]
+}
