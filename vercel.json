@@ -1,8 +1,13 @@
 {
-  "routes": [
+  "headers": [
     {
-      "src": "/.well-known/(.*)",
-      "dest": "/.well-known/$1"
+      "source": "/.well-known/assetlinks.json",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
     }
   ]
 }
