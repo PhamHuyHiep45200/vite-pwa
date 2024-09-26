@@ -9,7 +9,6 @@ export default defineConfig({
     VitePWA({
       registerType: "prompt",
       injectRegister: false,
-
       pwaAssets: {
         disabled: false,
         config: true,
