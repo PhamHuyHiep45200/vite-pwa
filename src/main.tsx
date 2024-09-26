@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" Component={App} /> {/* 👈 Renders at /app/ */}
-        <Route path="/.well-known/assetlinks.json" Component={AssetLinks} /> {/* 👈 Renders at /app/ */}
+        <Route path="/.well-known/assetlinks.json" Component={AssetLinks as React.ComponentType} /> {/* 👈 Renders at /app/ */}
       </Routes>
 
     </BrowserRouter>
